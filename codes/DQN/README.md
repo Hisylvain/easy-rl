@@ -44,7 +44,7 @@ for i_episode in range(MAX_EPISODES):
 
 ### 两个Q网络
 
-上文讲了Nature DQN中有两个Q网络，一个是policy_net，一个是延时更新的target_net，两个网络的结构是一模一样的，如下(见```model.py```)，注意DQN使用的Qnet就是全连接网络即FCH：
+上文讲了Nature DQN中有两个Q网络，一个是policy_net，一个是延时更新的target_net，两个网络的结构是一模一样的，如下(见```model.py```)，注意DQN使用的Qnet就是全连接网络即FCN：
 ```python
 import torch.nn as nn
 import torch.nn.functional as F
